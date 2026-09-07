@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    float a = 12, b = 4;
+    printf("Add = %.2f\n", a + b);
+    printf("Subtract = %.2f\n", a - b);
+    printf("Multiply = %.2f\n", a * b);
+    printf("Divide = %.2f\n", a / b);
+    return 0;
+}
