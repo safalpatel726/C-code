@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    double bytes = 1073741824;
+    double kb = bytes / 1024.0;
+    double mb = kb / 1024.0;
+    double gb = mb / 1024.0;
+
+    printf("%.0f Bytes =\n", bytes);
+    printf("KB: %.2f\nMB: %.2f\nGB: %.2f\n", kb, mb, gb);
+    return 0;
+}
