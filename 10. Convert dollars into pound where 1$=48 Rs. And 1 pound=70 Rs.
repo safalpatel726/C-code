@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    float dollars = 100, pounds;
+    pounds = (dollars * 48.0) / 70.0;
+    printf("%.2f Dollars = %.2f Pounds\n", dollars, pounds);
+    return 0;
+}
