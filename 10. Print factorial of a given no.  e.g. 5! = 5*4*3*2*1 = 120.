@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int num = 5;
+    long long fact = 1;
+    for (int i = 1; i <= num; i++) fact *= i;
+    printf("%d! = %lld\n", num, fact);
+    return 0;
+}
