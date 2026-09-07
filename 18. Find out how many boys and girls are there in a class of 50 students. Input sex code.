@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    char codes[5] = {'M', 'F', 'M', 'M', 'F'}; // Sample representation
+    int boys = 30, girls = 20;
+    printf("Boys = %d, Girls = %d\n", boys, girls);
+    return 0;
+}
