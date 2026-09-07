@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    float minutes = 150, hours;
+    hours = minutes / 60.0;
+    printf("%.0f minutes = %.2f hours\n", minutes, hours);
+    return 0;
+}
