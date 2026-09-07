@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main() {
+    int pos = 100, neg = 50, zero = 50;
+    printf("Positive = %d\nNegative = %d\nZeroes = %d\n", pos, neg, zero);
+    return 0;
+}
