@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    float l = 5.0;
+    printf("Area = %.2f\n", l * l);
+    printf("Perimeter = %.2f\n", 4 * l);
+    return 0;
+}
