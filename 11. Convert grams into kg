@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    float grams = 2500, kg;
+    kg = grams / 1000.0;
+    printf("%.2f Grams = %.2f Kg\n", grams, kg);
+    return 0;
+}
