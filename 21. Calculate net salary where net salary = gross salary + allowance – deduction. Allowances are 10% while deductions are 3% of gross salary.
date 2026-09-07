@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    float gross = 15000, allowances, deductions, net;
+    allowances = 0.10 * gross;
+    deductions = 0.03 * gross;
+    net = gross + allowances - deductions;
+    printf("Net Salary = %.2f\n", net);
+    return 0;
+}
