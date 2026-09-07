@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int num = 153, temp = num, d, sum = 0;
+    while (temp > 0) {
+        d = temp % 10;
+        sum += d * d * d;
+        temp /= 10;
+    }
+    if (num == sum) printf("%d is Armstrong\n", num);
+    else printf("%d is Not Armstrong\n", num);
+    return 0;
+}
