@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    int a = 15, b = 25;
+    if (a > b) printf("Largest = %d, Smallest = %d\n", a, b);
+    else printf("Largest = %d, Smallest = %d\n", b, a);
+    return 0;
+}
