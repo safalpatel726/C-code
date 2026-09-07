@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    float val, sum = 0;
+    float sample[10] = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
+    for (int i = 0; i < 10; i++) sum += sample[i];
+    printf("Sum = %.2f\nMean = %.2f\n", sum, sum / 10.0);
+    return 0;
+}
