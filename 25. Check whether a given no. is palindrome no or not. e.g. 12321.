@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int num = 12321, temp = num, rev = 0;
+    while (temp > 0) {
+        rev = rev * 10 + (temp % 10);
+        temp /= 10;
+    }
+    if (num == rev) printf("%d is Palindrome\n", num);
+    else printf("%d is Not Palindrome\n", num);
+    return 0;
+}
